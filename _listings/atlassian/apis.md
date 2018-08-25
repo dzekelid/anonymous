@@ -12,9 +12,11 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Confluence Cloud API
-  x-api-slug: confluence-cloud-api
-  description: this-document-describes-the-rest-api-and-resources-provided-by-confluence--the-rest-apis-are-for-developers-who-want-to-integrate-confluence-into-their-application-and-for-administrators-who-want-to-script-interactions-with-the-confluence-server-confluences-rest-apis-provide-access-to-resources-data-entities-via-uri-paths--to-use-a-rest-api-your-application-will-make-an-http-request-and-parse-the-response--the-response-format-is-json--your-methods-will-be-the-standard-http-methods-like-get-put-post-and-delete--because-the-rest-api-is-based-on-open-standards-you-can-use-any-web-development-language-to-access-the-api-
+- name: The Confluence Cloud REST API - Get anonymous user
+  x-api-slug: useranonymous-get
+  description: "Returns information about how anonymous users are represented, like
+    the\nprofile picture and display name.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \nPermission to access the Confluence site ('Can use' global permission)."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -26,50 +28,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/useranonymous-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/useranonymous-get-openapi.md
-- name: Confluence Cloud API
-  x-api-slug: confluence-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Anonymous
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Anonymous
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/openapi.md
-- name: Jira Service Desk API
-  x-api-slug: jira-service-desk-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Anonymous
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/openapi.md
-- name: Jira Software Cloud API
-  x-api-slug: jira-software-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Anonymous
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/atlassian/openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json
