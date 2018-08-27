@@ -14,11 +14,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kalt
 x-kinRank: "7"
 x-alexaRank: "23496"
 tags: Anonymous
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/kaltura/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Kaltura VPaaS - Get Service Baseentry Action Anonymousrank
+  x-api-slug: servicebaseentryactionanonymousrank-get
+  description: Anonymously rank an entry, no validation is done on duplicate rankings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/kaltura/servicebaseentryactionanonymousrank-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/anonymous/master/_listings/kaltura/servicebaseentryactionanonymousrank-get-openapi.md
 - name: Kaltura VPaaS - Get Service Baseentry Action Anonymousrank
   x-api-slug: servicebaseentryactionanonymousrank-get
   description: Anonymously rank an entry, no validation is done on duplicate rankings.
